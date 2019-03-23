@@ -1,0 +1,56 @@
+{
+	"name": "Template",
+	"version": "1.0.0",
+	"description": "Template Project",
+	"keywords": [
+		"css",
+		"html",
+		"mobile-first",
+		"responsive",
+		"front-end",
+		"back-end",
+		"framework",
+		"web",
+		"node",
+		"express",
+		"handlebars",
+		"dotenv",
+		"normalize-css"
+	],
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JVGH/Template.git"
+	},
+	"homepage": "https://",
+	"bugs": {
+		"url": "https://github.com/JVGH/Template/issues"
+	},
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"pre-script": "node ./database/index.js",
+		"start": "node ./bin/www",
+		"dev": "nodemon ./bin/www"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"dependencies": {
+		"cookie-parser": "^1.4.4",
+		"debug": "^4.1.1",
+		"dotenv": "^7.0.0",
+		"express": "^4.16.4",
+		"express-handlebars": "^3.0.2",
+		"http-errors": "^1.7.2",
+		"morgan": "^1.9.1",
+		"mysql2": "^1.6.5",
+		"sequelize": "^5.1.0",
+		"sequelize-cli": "^5.4.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.10"
+	},
+	"author": "JVGH",
+	"license": "MIT"
+}
